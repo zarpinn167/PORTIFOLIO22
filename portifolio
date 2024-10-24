@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu portifólio</title>
+    <link rel="stylesheet"href="body.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Portifolio de Rafael</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#um pouco se dua história">Um pouco da minha história</a></li>
+                <li><a href="#oque mais gosta de fazer">Oque mais gosto de fazer</a></li>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Rafael e sou Suporte de Sitemas. Tenho experiência em informática e tenho 18 anos.é um estudante dedicado e comprometido que completou o ensino médio no Centro Estadual de Educação Profissional (CEEP). Durante o período escolar, [ele/ela] se destacou por sua determinação acadêmica e habilidades excepcionais em [área de estudo específica, se aplicável]. O CEEP, conhecido por seu currículo voltado para a educação técnica e profissional, ofereceu a [ele/ela] uma base sólida em [disciplinas relevantes, como Tecnologia, Comércio, Saúde, etc.], preparando-o(a) para enfrentar desafios acadêmicos e profissionais futuros.
+
+                Com um histórico de envolvimento em projetos [específicos, se houver] e uma paixão por [área de interesse ou atividade extracurricular], [seu nome] demonstrou um forte senso de responsabilidade e iniciativa. A experiência no CEEP não apenas contribuiu para o desenvolvimento acadêmico, mas também ajudou a moldar [suas/suas] habilidades práticas e o pensamento crítico.
+                
+                Além do conhecimento técnico adquirido, [seu nome] desenvolveu habilidades interpessoais e de liderança ao colaborar com colegas e participar ativamente de [atividades escolares ou eventos, se houver]. [Ele/Ela] está agora pronto(a) para aplicar esse conhecimento e essas habilidades em novos desafios, buscando continuamente oportunidades para crescer e se destacar em [área de interesse ou campo profissional].**</p>
+        </div>
+    </section>
+    <section id="projetos">
+        <div class="container">
+            <h2>Minha identidade</h2>
+            <div class="galeria">
+                <div class="Minha foto">
+                    <img src="marcal.png" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Joguei na base do Colo-Colo</p>
+                </div>
+                <div class="projeto">
+                    <img src="ivan.jpeg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Apoiei o Ivan 11</p>
+                </div>
+                <div class="projeto">
+                    <img src="emilio.jpeg" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Trabalhei para Emilio automóveis</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Meu Portfólio</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+    
+
